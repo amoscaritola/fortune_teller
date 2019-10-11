@@ -1,0 +1,82 @@
+h1, p {
+  color: white;
+}
+
+.jumbotron {
+  padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+  margin-bottom: 0px !important;
+}
+
+.word_bubble_container {
+  position: relative;
+  text-align: center;
+  bottom: -20px;
+}
+
+.wizard_container {
+  position: relative;
+  text-align: center;
+  color: white;
+  bottom: -23px;
+}
+
+.input_group {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+}
+
+#main_cont {
+  background-image: url("img/space_bg.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+}
+
+#fortune_response_text {
+  color: black;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bangers', cursive;
+  font-size: 28px;
+  text-align: center;
+}
+
+#fortune_button {
+  width: 40%;
+}
+
+#crystal_ball {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 102px;
+}
+
+/* For mobile device */
+@media screen and (max-width: 481px){
+  #bubble_image {
+    width: 85%;
+  }
+  #tony_image {
+    width: 85%;
+  }
+  #fortune_response_text {
+    top: 43%;
+    font-size: 1.1em;
+  }
+  .jumbotron {
+    height: 100px;
+    margin-bottom: 0rem !important;
+  }
+  .jumbotron .container h1 {
+    font-size: 25px;
+  }
+  .jumbotron .container p {
+    font-size: 16px;
+  }
+}
