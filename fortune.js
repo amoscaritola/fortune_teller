@@ -59,9 +59,6 @@ function random_fortune() {
 }
 
 $("#fortune_button").click(function() {
-  if ($("#question").val() == "" ) {
-    $("#fortune_response_text").text("Ask me a question");
-  } else {
     fortune = random_fortune();
     tell_fortune(fortune);
   }
