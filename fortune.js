@@ -61,8 +61,6 @@ function random_fortune() {
 $("#fortune_button").click(function() {
     fortune = random_fortune();
     tell_fortune(fortune);
-  }
-  console.log("Button Pressed");
 });
 
 $("#crystal_ball").click(function() {
